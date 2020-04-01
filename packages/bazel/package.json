@@ -34,7 +34,7 @@
     "@types/node": "6.0.84",
     "semver": "^5.6.0",
     "shelljs": "0.8.2",
-    "tsickle": "^0.35.0"
+    "tsickle": "^0.37.1"
   },
   "peerDependencies": {
     "@angular/compiler-cli": "0.0.0-PLACEHOLDER",
