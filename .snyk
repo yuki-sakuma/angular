@@ -1,0 +1,22 @@
+# Snyk (https://snyk.io) policy file, patches or ignores known vulnerabilities.
+version: v1.14.1
+ignore: {}
+# patches apply the minimum changes required to fix a vulnerability
+patch:
+  SNYK-JS-LODASH-567746:
+    - karma > lodash:
+        patched: '2020-04-30T23:25:51.003Z'
+    - '@bazel/karma > karma > lodash':
+        patched: '2020-04-30T23:25:51.003Z'
+    - '@bazel/karma > karma-sauce-launcher > sauce-connect-launcher > async > lodash':
+        patched: '2020-04-30T23:25:51.003Z'
+    - karma > combine-lists > lodash:
+        patched: '2020-04-30T23:25:51.003Z'
+    - '@bazel/karma > karma-sauce-launcher > sauce-connect-launcher > lodash':
+        patched: '2020-04-30T23:25:51.003Z'
+    - '@microsoft/api-extractor > lodash':
+        patched: '2020-04-30T23:25:51.003Z'
+    - '@bazel/karma > karma > log4js > streamroller > lodash':
+        patched: '2020-04-30T23:25:51.003Z'
+    - '@bazel/karma > karma > log4js > streamroller > async > lodash':
+        patched: '2020-04-30T23:25:51.003Z'
