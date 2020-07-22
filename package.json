@@ -36,7 +36,7 @@
   "dependencies": {
     "@angular-devkit/architect": "^0.800.0-beta.15",
     "@angular-devkit/build-optimizer": "^0.800.0-beta.15",
-    "@angular-devkit/core": "^8.0.0-beta.15",
+    "@angular-devkit/core": "^8.3.29",
     "@angular-devkit/schematics": "^8.0.0-beta.15",
     "@angular/bazel": "file:./tools/npm/@angular_bazel",
     "@bazel/jasmine": "0.38.1",
@@ -44,7 +44,7 @@
     "@bazel/protractor": "0.38.1",
     "@bazel/typescript": "0.38.1",
     "@microsoft/api-extractor": "^7.3.9",
-    "@schematics/angular": "^8.0.0-beta.15",
+    "@schematics/angular": "^8.3.29",
     "@types/angular": "^1.6.47",
     "@types/base64-js": "1.2.5",
     "@types/bluebird": "^3.5.27",
