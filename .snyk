@@ -1,0 +1,52 @@
+# Snyk (https://snyk.io) policy file, patches or ignores known vulnerabilities.
+version: v1.19.0
+ignore: {}
+# patches apply the minimum changes required to fix a vulnerability
+patch:
+  'npm:extend:20180424':
+    - karma > dom-serialize > extend:
+        patched: '2020-07-28T05:39:13.849Z'
+    - '@bazel/karma > karma > dom-serialize > extend':
+        patched: '2020-07-28T05:39:13.849Z'
+    - protractor > webdriver-manager > request > extend:
+        patched: '2020-07-28T05:39:13.849Z'
+    - karma-browserstack-launcher > browserstack > https-proxy-agent > extend:
+        patched: '2020-07-28T05:39:13.849Z'
+    - karma-browserstack-launcher > browserstacktunnel-wrapper > https-proxy-agent > extend:
+        patched: '2020-07-28T05:39:13.849Z'
+    - '@bazel/protractor > protractor > webdriver-manager > request > extend':
+        patched: '2020-07-28T05:39:13.849Z'
+    - karma-browserstack-launcher > browserstack > https-proxy-agent > agent-base > extend:
+        patched: '2020-07-28T05:39:13.849Z'
+    - karma-browserstack-launcher > browserstacktunnel-wrapper > https-proxy-agent > agent-base > extend:
+        patched: '2020-07-28T05:39:13.849Z'
+  SNYK-JS-HTTPSPROXYAGENT-469131:
+    - protractor > saucelabs > https-proxy-agent:
+        patched: '2020-07-28T05:39:13.849Z'
+    - protractor > browserstack > https-proxy-agent:
+        patched: '2020-07-28T05:39:13.849Z'
+    - '@bazel/karma > karma-sauce-launcher > sauce-connect-launcher > https-proxy-agent':
+        patched: '2020-07-28T05:39:13.849Z'
+    - '@bazel/karma > karma-sauce-launcher > saucelabs > https-proxy-agent':
+        patched: '2020-07-28T05:39:13.849Z'
+    - '@bazel/protractor > protractor > saucelabs > https-proxy-agent':
+        patched: '2020-07-28T05:39:13.849Z'
+    - '@bazel/protractor > protractor > browserstack > https-proxy-agent':
+        patched: '2020-07-28T05:39:13.849Z'
+  SNYK-JS-LODASH-567746:
+    - karma > lodash:
+        patched: '2020-07-28T05:39:13.849Z'
+    - '@bazel/karma > karma > lodash':
+        patched: '2020-07-28T05:39:13.849Z'
+    - '@bazel/karma > karma-sauce-launcher > sauce-connect-launcher > async > lodash':
+        patched: '2020-07-28T05:39:13.849Z'
+    - karma > combine-lists > lodash:
+        patched: '2020-07-28T05:39:13.849Z'
+    - '@bazel/karma > karma-sauce-launcher > sauce-connect-launcher > lodash':
+        patched: '2020-07-28T05:39:13.849Z'
+    - '@microsoft/api-extractor > lodash':
+        patched: '2020-07-28T05:39:13.849Z'
+    - '@bazel/karma > karma > log4js > streamroller > lodash':
+        patched: '2020-07-28T05:39:13.849Z'
+    - '@bazel/karma > karma > log4js > streamroller > async > lodash':
+        patched: '2020-07-28T05:39:13.849Z'
