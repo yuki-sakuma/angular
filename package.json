@@ -115,7 +115,7 @@
     "tslint": "5.7.0",
     "typescript": "~3.5.3",
     "xhr2": "0.1.4",
-    "yargs": "13.1.0",
+    "yargs": "16.0.0",
     "zone.js": "^0.10.2"
   },
   "optionalDependencies": {
