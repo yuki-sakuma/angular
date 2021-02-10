@@ -183,12 +183,12 @@
   dependencies:
     tslib "^1.9.0"
 
-"@angular/core@^9.0.0-next.9":
-  version "9.0.0-next.9"
-  resolved "https://registry.yarnpkg.com/@angular/core/-/core-9.0.0-next.9.tgz#c78fc8228d692e3c24dc5f6862644131242d29cc"
-  integrity sha512-8UJE+3ZVuNNVKcKewtx7jR0K7dHpcsPc9RE0UHil6QBNuyvyaVgDb7pSYdIEs2dx0pX78akvM8VF87Fvc20xWw==
+"@angular/core@^11.0.5":
+  version "11.2.0"
+  resolved "https://registry.yarnpkg.com/@angular/core/-/core-11.2.0.tgz#309ae61d55b21fca0b644a6571109741d64b2467"
+  integrity sha512-jnbnJTW2GwfkRoXG8J4zs5FMcahMZwo6jrZGe9FiXjCYG9cLEuOXy4h99Z1s/o0vc/VXyWgym7SmeEgv+urf8g==
   dependencies:
-    tslib "^1.9.0"
+    tslib "^2.0.0"
 
 "@angular/elements@^9.0.0-next.9":
   version "9.0.0-next.9"
@@ -11611,6 +11611,11 @@ tslib@^1.7.1, tslib@^1.8.1, tslib@^1.9.0:
 tslib@^1.8.0:
   version "1.9.0"
   resolved "https://registry.yarnpkg.com/tslib/-/tslib-1.9.0.tgz#e37a86fda8cbbaf23a057f473c9f4dc64e5fc2e8"
+
+tslib@^2.0.0:
+  version "2.1.0"
+  resolved "https://registry.yarnpkg.com/tslib/-/tslib-2.1.0.tgz#da60860f1c2ecaa5703ab7d39bc05b6bf988b97a"
+  integrity sha512-hcVC3wYEziELGGmEEXue7D75zbwIIVUMWAVbHItGPx0ziyXxrOMQx4rQEVEV45Ut/1IotuEvwqPopzIOkDMf0A==
 
 tslint@~5.15.0:
   version "5.15.0"
