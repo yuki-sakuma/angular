@@ -35,7 +35,7 @@
   "// 1": "dependencies are used locally and by bazel",
   "dependencies": {
     "@angular-devkit/architect": "^0.800.0-beta.15",
-    "@angular-devkit/build-optimizer": "^0.800.0-beta.15",
+    "@angular-devkit/build-optimizer": "^0.1200.0",
     "@angular-devkit/core": "^8.0.0-beta.15",
     "@angular-devkit/schematics": "^8.0.0-beta.15",
     "@angular/bazel": "file:./tools/npm/@angular_bazel",
